@@ -9,6 +9,7 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
+$darkgrey: #393939;
 
 $blue:    #007bff;
 $indigo:  #6610f2;
@@ -20,24 +21,32 @@ $yellow:  #ffc107;
 $green:   #28a745;
 $teal:    #20c997;
 $cyan:    #17a2b8;
+$deeporange: #FF5A09;
+$lightorange: #ec7f37;
+$orangeyellow: #be4f0c;
 
-$primary:       $blue;
+
+$primary:       $deeporange;
 $secondary:     $gray-600;
-$success:       $green;
-$info:          $cyan;
+$success:       $lightorange;
+$info:          $orangeyellow;
 $warning:       $yellow;
 $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-800;
 
-$body-bg:                   $gray-300 !default;
+$body-bg:                   $darkgrey !default;
 $body-color:                $gray-900 !default;
 
 @import "./node_modules/bootstrap/scss/bootstrap";
 
 
-.h1 {
-  color: blue;
+h1, h2, {
+  color: $primary;
+}
+
+h3{
+  color: $success;
 }
 .img_Sheldon{
     display: block;
@@ -60,17 +69,17 @@ table {
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: $primary;
 }
 
 /* visited link */
 a:visited {
-    color: #4B0082;
+    color: $success;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: $info;
 }
 
 /* selected link */
