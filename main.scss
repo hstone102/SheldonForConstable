@@ -45,6 +45,8 @@ $body-color:                $gray-900;
   margin-left: 50px;
   margin-right: 50px;
 }
+
+
 .MoneyForm {
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -139,7 +141,7 @@ h1, h2, {
   text-align: center;
 }
 
-p{
+p {
   color: $success;
   margin-right: 50px;
   margin-left: 50px;
@@ -158,7 +160,7 @@ h3{
     width: 50%;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
@@ -169,7 +171,7 @@ table {
     text-align: center;
 }
 
-li{
+li {
   margin-top: 10px;
   width: 100%;
   color: $success;
@@ -177,11 +179,11 @@ li{
   margin-right: auto;
 }
 
-ul{
+ul {
   margin-right: 50px;
 }
 
-.reasons{
+.reasons {
   margin-top: 100px;
   width: 100%;
   text-align: center;
@@ -190,7 +192,7 @@ ul{
 
 /* unvisited link */
 a:link {
-    color: $primary;
+    color: $darkgrey;
 }
 
 /* visited link */
