@@ -40,6 +40,11 @@ $body-bg:                   $darkgrey;
 $body-color:                $gray-900;
 
 @import "./node_modules/bootstrap/scss/bootstrap";
+
+.indents{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .MoneyForm {
 .row {
   display: -ms-flexbox; /* IE10 */
