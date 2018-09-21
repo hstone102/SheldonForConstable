@@ -8610,6 +8610,10 @@ h3 {
     border-color: #BDBDBD;
   }
 }
+.h1 {
+  color: blue;
+}
+
 .img_Sheldon {
   display: block;
   margin-top: 50px;
@@ -8627,6 +8631,26 @@ table {
   margin-top: 100px;
   width: 100%;
   text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: #4B0082;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 
 .card-img-top {
