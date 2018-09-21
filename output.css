@@ -8615,6 +8615,10 @@ h3 {
   margin-right: 50px;
 }
 
+.buttonCenter {
+  text-align: center;
+}
+
 .MoneyForm {
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
 }
@@ -8726,9 +8730,10 @@ h3 {
 
 table {
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   width: 100%;
   text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
 li {

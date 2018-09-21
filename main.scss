@@ -46,6 +46,10 @@ $body-color:                $gray-900;
   margin-right: 50px;
 }
 
+.buttonCenter {
+  text-align: center;
+}
+
 
 .MoneyForm {
 .row {
@@ -166,9 +170,10 @@ h3{
 
 table {
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     width: 100%;
     text-align: center;
+    border-bottom: 1px solid #ddd;
 }
 
 li {
