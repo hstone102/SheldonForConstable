@@ -8612,6 +8612,13 @@ h3 {
 }
 h1, h2 {
   color: #FF5A09;
+  text-align: center;
+}
+
+p {
+  color: #ec7f37;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 h3 {
@@ -8635,6 +8642,21 @@ table {
   margin-top: 100px;
   width: 100%;
   text-align: center;
+}
+
+li {
+  margin-top: 10px;
+  width: 100%;
+  color: #ec7f37;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reasons {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  color: #be4f0c;
 }
 
 /* unvisited link */

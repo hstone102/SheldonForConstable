@@ -36,14 +36,22 @@ $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-800;
 
-$body-bg:                   $darkgrey !default;
-$body-color:                $gray-900 !default;
+$body-bg:                   $darkgrey;
+$body-color:                $gray-900;
 
 @import "./node_modules/bootstrap/scss/bootstrap";
 
 
 h1, h2, {
   color: $primary;
+  text-align: center;
+}
+
+p{
+  color: $success;
+  margin-right: 50px;
+  margin-left: 50px;
+
 }
 
 h3{
@@ -66,6 +74,21 @@ table {
     margin-top: 100px;
     width: 100%;
     text-align: center;
+}
+
+li{
+  margin-top: 10px;
+  width: 100%;
+  color: $success;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reasons{
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  color: $info;
 }
 
 /* unvisited link */
