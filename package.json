@@ -1,0 +1,24 @@
+{
+  "name": "sheldonforconstable",
+  "version": "1.0.0",
+  "description": "Converting SASS to CSS fieldset",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstone102/SheldonForConstable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hstone102/SheldonForConstable/issues"
+  },
+  "homepage": "https://github.com/hstone102/SheldonForConstable#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.24.7",
+    "sass": "^1.14.0"
+  }
+}
