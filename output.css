@@ -1,23 +1,4 @@
 @charset "UTF-8";
-.img_Sheldon {
-  display: block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.center {
-  text-align: center;
-}
-
-table {
-  margin-top: 100px;
-  width: 100%;
-  text-align: center;
-}
-
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -8628,6 +8609,30 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.img_Sheldon {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 300px;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
 
 /*# sourceMappingURL=output.css.map */

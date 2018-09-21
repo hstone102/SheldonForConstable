@@ -1,3 +1,6 @@
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
 .img_Sheldon{
     display: block;
     margin-top: 50px;
@@ -17,4 +20,8 @@ table {
     text-align: center;
 }
 
-@import "./node_modules/bootstrap/scss/bootstrap";
+.card-img-top {
+  height: 300px;
+   // Required because we use flexbox and this inherently applies align-self: stretch
+  @include border-top-radius($card-inner-border-radius);
+}
