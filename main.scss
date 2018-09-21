@@ -24,13 +24,14 @@ $cyan:    #17a2b8;
 $deeporange: #FF5A09;
 $lightorange: #ec7f37;
 $orangeyellow: #be4f0c;
+$lightyellowish: #FFCC33;
 
 
 $primary:       $deeporange;
 $secondary:     $gray-600;
 $success:       $lightorange;
 $info:          $orangeyellow;
-$warning:       $yellow;
+$warning:       $lightyellowish;
 $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-800;
@@ -74,7 +75,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: $success;
+    color: $lightyellowish;
 }
 
 /* mouse over link */
