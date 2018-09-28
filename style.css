@@ -8757,7 +8757,7 @@ ul {
 
 /* unvisited link */
 a:link {
-  color: #393939;
+  color: #f8f9fa;
 }
 
 /* visited link */
@@ -8781,4 +8781,4 @@ a:active {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=style.css.map */
