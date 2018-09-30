@@ -29,9 +29,9 @@ $lightyellowish: #FFCC33;
 
 $primary:       $deeporange;
 $secondary:     $gray-600;
-$success:       $lightorange;
+$success:       $lightyellowish;
 $info:          $orangeyellow;
-$warning:       $lightyellowish;
+$warning:       $lightorange;
 $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-800;
@@ -169,12 +169,17 @@ h3{
 }
 
 table {
+    border: 1px solid white;
     margin-top: 100px;
-    margin-bottom: 25px;
-    width: 100%;
+    margin-bottom: 50px;
     text-align: center;
     border-bottom: 1px solid #ddd;
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing:20px;
+    border-collapse: separate;
 }
+
 
 li {
   margin-top: 10px;
@@ -185,11 +190,11 @@ li {
 }
 
 ul {
-  margin-right: 50px;
+  margin-left: 250px;
 }
 
 .reasons {
-  margin-top: 100px;
+  margin-top: 125px;
   width: 100%;
   text-align: center;
   color: $info;
@@ -218,4 +223,29 @@ a:active {
   height: 300px;
    // Required because we use flexbox and this inherently applies align-self: stretch
   @include border-top-radius($card-inner-border-radius);
+}
+
+.containter {
+  justify-items: center;
+}
+
+.card{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.tagline{
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.card-text {
+  color: $info;
+}
+
+.paragraphs {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 30px;
 }
